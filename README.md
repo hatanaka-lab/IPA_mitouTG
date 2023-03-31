@@ -261,5 +261,5 @@ The "Strategy for statevector calculation" is to perform a successful VQE calcul
 
 In the "Strategy for dealing with noise and errors", by starting at (1) and following the instructions down, the calculation results are classified as either "(A) calculation succeeded" or "(B) Critically high error noise or optimizer is sensitive to noise". Note that the frames in the figure with multiple arrows going in and out represent solid lines going in and out of each other and dashed lines going in and out of each other. In (A), the calculation is successful (error less than 1 kcal/mol) on a real device with noise/error, and in (B), it is difficult to achieve the required accuracy in the VQE calculation under the conditions currently under consideration. If the calculation is classified as (B), it is necessary to review the ansatz structure and start over again with ansatz selection using the "Strategy for statevector calculation".
 
-## Acknowledgment
+## Acknowledgement
 The contents of this repository were created with the support of the Information-technology Promotion Agency (IPA) MITOU Target Program.
